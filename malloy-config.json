@@ -1,0 +1,17 @@
+{
+  "connections": {
+    "duckdb": {
+      "is": "duckdb"
+    },
+    "bigquery": {
+      "is": "bigquery",
+      "projectId": "shearwaterdata-dev-1",
+      "serviceAccountKeyJson": { "env": "BIGQUERY_SHEARWATER_JSON" }
+    }
+  },
+  "malloyyo": {
+    "targets": {
+      "prod": { "url": "https://shearwater.malloyyo.com/" }
+    }
+  }
+}

@@ -1,0 +1,16 @@
+# Local connection override — holds real credentials, and publish refuses it
+malloy-config-local.json
+
+# Credentials — never commit
+.env
+.env.*
+*.json.key
+service-account*.json
+*-key.json
+
+# Personal Claude Code settings
+.claude/settings.local.json
+
+# OS / editor / build
+.DS_Store
+node_modules/

@@ -1,0 +1,26 @@
+{
+  "enabledMcpjsonServers": [
+    "malloyyo_author",
+    "malloyyo_instance"
+  ],
+  "permissions": {
+    "allow": [
+      "mcp__malloyyo_author__compile",
+      "mcp__malloyyo_author__compile_file",
+      "mcp__malloyyo_author__prettify",
+      "mcp__malloyyo_author__query",
+      "mcp__malloyyo_author__yo_help",
+      "mcp__malloyyo_instance__yo_help",
+      "mcp__malloyyo_instance__list_repos",
+      "mcp__malloyyo_instance__list_sources",
+      "mcp__malloyyo_instance__list_tables",
+      "mcp__malloyyo_instance__describe_table",
+      "mcp__malloyyo_instance__describe_source",
+      "mcp__malloyyo_instance__query",
+      "mcp__malloyyo_instance__show_dashboard",
+      "mcp__malloyyo_instance__check_repo",
+      "mcp__malloyyo_instance__fetch_branch",
+      "mcp__malloyyo_instance__preview_changes"
+    ]
+  }
+}

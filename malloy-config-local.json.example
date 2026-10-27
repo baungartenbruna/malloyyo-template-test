@@ -1,0 +1,14 @@
+// Local-machine override only (git-ignored, and `malloyyo publish` refuses it).
+// Copy to malloy-config-local.json to point BigQuery at a key FILE on your
+// laptop. Not needed in a codespace: set the BIGQUERY_SHEARWATER_JSON
+// Codespaces secret instead, or let the instance compile.
+{
+  "connections": {
+    "duckdb": { "is": "duckdb" },
+    "bigquery": {
+      "is": "bigquery",
+      "projectId": "shearwaterdata-dev-1",
+      "serviceAccountKeyPath": "/path/to/service-account.json"
+    }
+  }
+}

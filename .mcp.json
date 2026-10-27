@@ -1,0 +1,18 @@
+{
+  "mcpServers": {
+    "malloyyo_author": {
+      "command": "malloyyo",
+      "args": [
+        "mcp",
+        "--develop"
+      ]
+    },
+    "malloyyo_instance": {
+      "type": "http",
+      "url": "${MALLOYYO_URL:-https://shearwater.malloyyo.com}/mcp",
+      "headers": {
+        "Authorization": "Bearer ${MALLOYYO_TOKEN:-}"
+      }
+    }
+  }
+}
